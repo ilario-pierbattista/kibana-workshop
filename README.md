@@ -29,4 +29,4 @@ It may take several seconds to have them ready, be patient.
 
 ## Reset data
 
-Remove everything in the folder `data`.
+Remove everything in the folder `data` except `.gitkeep` file.
