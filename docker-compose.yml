@@ -8,6 +8,8 @@ services:
         container_name: kibana_workshop
         depends_on: 
             - elasticsearch
+        environment: 
+            - SERVER_HOST=0.0.0.0
     
     elasticsearch:
         image: docker.elastic.co/elasticsearch/elasticsearch:7.7.0
