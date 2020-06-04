@@ -21,8 +21,11 @@ Then open http://localhost:5601 in your browser.
 It may take several seconds to have them ready, be patient.
 
 
-## Download sample data
-While the container is running, to download the sample data open [this page](http://localhost:5601/app/kibana#/home/tutorial_directory/sampleData).
+## Install sample data
+While the container is running, to install the sample data open http://localhost:5601/app/kibana#/home/tutorial_directory/sampleData.
+
+There will be three samples. Install all of them.
+
 
 ## Stop and remove containers
 
